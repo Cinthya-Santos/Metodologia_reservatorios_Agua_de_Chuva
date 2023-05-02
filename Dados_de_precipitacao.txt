@@ -1,0 +1,7 @@
+
+Link para dados de precipitação: https://1drv.ms/f/s!AreAzgK4jlpsgegj5BSEaG4SgYx3vg?e=7TcNLY
+
+Referência dos dados:
+XAVIER, A. C.; KING, C. W.; SCANLON, B. R. Daily gridded meteorological variables in Brazil (1980–2013). International Journal of Climatology, v. 36, n. 6, p. 2644-2659, 2016. DOI: https://doi.org/10.1002/joc.4518 
+
+XAVIER, A. C.; KING, C. W.; SCANLON, B. R. An update of Xavier, King and Scanlon (2016) daily precipitation gridded data set for the Brazil. In: XVIII Simpósio Brasileiro de Sensoriamento Remoto. Santos, São Paulo, 2017. Disponível em: https://proceedings.science/sbsr/papers/an-update-of-xavier--king-and-scanlon--2016-- daily-precipitation-gridded-data-set-for-the-brazil Acesso em: 02 de dezembro de 2019.
