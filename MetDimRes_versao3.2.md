@@ -127,7 +127,9 @@ def Calculo_reserv():
     long = float(entrada_longitude.get())
 
      # Abre o arquivo NetCDF
-    path = 'C:/Users/cinth/OneDrive/Doutorado/Doutorado/Tese/scripts/Arquivos_coeficientes/'
+    #O caminho do arquivo deve ser atualizado para o caminho da pasta onde os arquivos disponibilizados estão armazenados
+    #ex. C:/Usuário/arquivos_coeficientes/CEV_50_100.nc
+    path = 'C:/Caminho/para/os/dados/'
     arquivo = xr.open_mfdataset(path+'prec_daily_UT_Brazil_v2.2*.nc', combine='by_coords')
     # Obtém o coeficiente selecionado pelo usuário
     coeficiente = coeficiente_selecionado.get()
