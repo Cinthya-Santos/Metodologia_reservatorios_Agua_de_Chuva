@@ -474,16 +474,17 @@ def Calculo_reserv():
             rotulo_vaprov.config(text=f"O volume de água aproveitável médio num ciclo anual é de  {str(round(vaprov,3))} m³")
         else:
             #CTV de cada método
-            if vresRM==0:
-                CTV_RM=0  
-            else:
-                CTV_RM = round(((entrada/37)-volume_aprov_anualRM)/vresRM,3)
-              
             entrada = sum(ponto_escolhido_valores)*area*0.0008
             CTV_Az2N = round(((entrada/37)-volume_aprov_anualAz2N)/vres_Az2N,3)
             CTV_AzN = round(((entrada/37)-volume_aprov_anualAzN)/vres_AzN,3)
             CTV_Ing = round(((entrada/37)-volume_aprov_anualIng)/vres_Ing,3)
             CTV_RD = round(((entrada/37)-volume_aprov_anualRD)/vresRD,3)
+            
+            if vresRM==0:
+                CTV_RM=0  
+            else:
+                CTV_RM = round(((entrada/37)-volume_aprov_anualRM)/vresRM,3)
+              
             lista_CTV = [CTV_RD, CTV_RM, CTV_Az2N, CTV_AzN, CTV_Ing]
             valores_positivos = list(filter(lambda x: x > 0, lista_CTV))
             CTV_otimo = min(valores_positivos)
